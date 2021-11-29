@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="LoginJSF/src"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/jpa/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/jpa/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/javassist-3.26.0-GA.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/required/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/libHibernate/slf4j-nop-1.6.2.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/javassist-3.26.0-GA.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/required/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/libHibernate/slf4j-nop-1.6.2.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry kind="lib" path="LoginJSF/primefaces-4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSF 2.0 (Apache Myfaces JSF Core-2.0 API 2.0.2)">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.jsf"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="LoginJSF/build/classes"/>
+</classpath>
