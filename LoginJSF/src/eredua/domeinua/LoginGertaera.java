@@ -3,11 +3,14 @@ package eredua.domeinua;
 import java.util.Date;
 import javax.persistence.Id;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
 @Entity
 public class LoginGertaera {
-	@Id
-	private Long id;
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+ private Long id;
 	private String deskribapena;
 	private Date data;
 
