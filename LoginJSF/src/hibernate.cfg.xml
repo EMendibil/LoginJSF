@@ -16,5 +16,6 @@
   <property name="hibernate.format_sql">true</property>
   <mapping class="eredua.domeinua.LoginGertaera"/>
   <mapping class="eredua.domeinua.Erabiltzailea"/>
+  <mapping class="eredua.domeinua.Makina"/>
  </session-factory>
 </hibernate-configuration>
