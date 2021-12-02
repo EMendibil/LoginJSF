@@ -3,6 +3,12 @@ package eredua.domeinua;
 import java.util.Date;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -14,8 +20,10 @@ public class LoginGertaera {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
  	private Long id;
 	private String deskribapena;
+	@Column(nullable = false) 
 	private Date data;
-	@ManyToOne(fetch=FetchType.LAZY)
+	@ManyToOne(targetEntity=Erabiltzailea.class, cascade=CascadeType.PERSIST, fetch=FetchType.EAGER) 
+	@Fetch(value = FetchMode.SELECT)
 	private Erabiltzailea erabiltzailea;
 	private boolean login;
 
